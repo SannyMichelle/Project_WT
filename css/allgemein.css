@@ -39,10 +39,6 @@ nav ul li a{
     color: white;
 }
 
-#team{
-    float: left;
-}
-
 main {
     display: table-cell;
     overflow: auto;
