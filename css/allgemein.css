@@ -1,5 +1,9 @@
 header {
-    background: darkred;
+    background: radial-gradient(darkred, orange);
+}
+
+main{
+    overflow: auto;
 }
 
 h1{
@@ -7,13 +11,11 @@ h1{
     color: white;
 }
 
-#navigation {
-    display: table;
-    width: 30%;
-}
+
 nav{
-    display: table-cell;
-    width: 15%;
+    float: left;
+    /*display: table-cell;*/
+    width: 180px;
     padding: 10px;
     border: solid gray 1px;
 }
@@ -39,11 +41,18 @@ nav ul li a{
     color: white;
 }
 
-main {
-    display: table-cell;
+div.rechteSpalte{
+    float: left;
+    /*display: table-cell;*/
+    border: 1px solid black;
+}
+ul{
     overflow: auto;
-    width: 60%;
-    padding: 10px;
+}
+
+p{
+    padding: 20px;
+    margin: 20px;
 }
 
 footer{
