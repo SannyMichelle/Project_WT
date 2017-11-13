@@ -1,5 +1,16 @@
 div.innen{
     float: left;
     padding: 10px;
+    margin: 20px;
+}
+
+ul{
+    overflow: auto;
+    list-style: none;
+    padding: 0px 10px 10px 0px;
+}
+
+span{
+    font-weight: bold;
 }
 
