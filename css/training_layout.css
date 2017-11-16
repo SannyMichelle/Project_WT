@@ -1,10 +1,10 @@
 div.innen{
     float: left;
-    padding: 10px;
+    padding: 0 5% 0 5%;
     margin: 20px;
 }
 
-ul{
+#list{
     overflow: auto;
     list-style: none;
     padding: 0px 10px 10px 0px;

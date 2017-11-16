@@ -11,7 +11,7 @@ main {
     overflow: auto;
     flex: 2 1 600px;
     border: solid qray 1px;
-    /*padding: 0 25% 0 25%;*/
+    padding: 0 0 0 20;
 }
 
 #rahmen {
@@ -58,8 +58,10 @@ nav ul li a {
     color: white;
 }
 
-ul {
+ul{
     overflow: auto;
+    list-style: none;
+    padding: 0px 20px 20px 20px;
 }
 
 p {
