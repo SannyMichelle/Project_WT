@@ -1,13 +1,8 @@
 
-img{
+#team{
     float: left;
     padding: 0px 10px 10px 0px;
 }
 
-aside{
-    overflow: auto;
-    float: right;
-    width: 200px;
-    border: 1px solid black;
-}
+
 
