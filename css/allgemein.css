@@ -19,7 +19,7 @@ header {
 main {
     overflow: auto;
     flex: 2 1 600px;
-    border: solid qray 1px;
+    border: solid gray 1px;
     padding: 0 0 0 20;
 }
 
