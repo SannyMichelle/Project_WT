@@ -1,0 +1,17 @@
+#rahmen {
+    flex-direction: -webkit-column;
+    flex-direction: -ms-column;
+    flex-direction: column;
+}
+
+nav{
+    order: 2;
+}
+
+main{
+    order: 3;
+}
+
+aside{
+    order: 1;
+}

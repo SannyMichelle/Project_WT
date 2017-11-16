@@ -9,7 +9,7 @@ header {
 
 main {
     overflow: auto;
-    flex: 2 1 700px;
+    flex: 2 1 600px;
     border: solid qray 1px;
     /*padding: 0 25% 0 25%;*/
 }
@@ -73,7 +73,7 @@ p {
 }
 
 aside{
-    flex: 1 2 200px;
+    flex: 1 1 400px;
     overflow: auto;
     border: 1px solid black;
 }
