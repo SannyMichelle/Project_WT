@@ -7,13 +7,6 @@ header {
     background: radial-gradient(darkred, orange);
 }
 
-main {
-    overflow: auto;
-    flex: 2 1 600px;
-    border: solid qray 1px;
-    padding: 0 0 0 20;
-}
-
 #rahmen {
     display: -webkit-flex;
     display: -ms-flex;
@@ -22,6 +15,12 @@ main {
     flex-direction: -ms-row;
     flex-direction: row;
     border: none;
+}
+main {
+    overflow: auto;
+    flex: 2 1 600px;
+    border: solid qray 1px;
+    padding: 0 0 0 20;
 }
 
 h1 {
