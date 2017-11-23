@@ -4,17 +4,18 @@
     flex-direction: column;
 }
 
-nav{
-    order: 2;
+nav {
+    order: 1;
+    float: left;
 }
 
-main{
+main {
     flex: 0 0;
     padding: 10px;
     order: 3;
 }
 
-aside{
+aside {
     flex: 0 0;
-    order: 1;
+    order: 2;
 }
