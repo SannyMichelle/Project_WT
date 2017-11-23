@@ -60,6 +60,7 @@ nav ul li a {
 
 a.active{
     background: orange;
+    border: solid darkorange 1px;
 }
 
 ul {
@@ -100,7 +101,7 @@ table.tabellenformat tbody td {
 }
 
 #Terminvereinbarung {
-    padding: 0 20% 0 20%;
+    padding: 2% 20% 0 20%;
 }
 
 blockquote {
