@@ -81,16 +81,23 @@ table.tabellenformat thead{
     color: white;
 }
 table.tabellenformat tbody {
-    background-color: hsl(0, 100%, 35%);
+    background-color: hsl(39, 100%, 50%);
 }
 
 #Terminvereinbarung{
     padding: 0 20% 0 20%;
 }
 
+blockquote{
+    font-weight: inherit;
+    font-style: italic;
+    text-align: right;
+}
+
 aside{
-    flex: 1 1 400px;
+    flex: 1 1 410px;
     overflow: auto;
+    text-align: justify;
     border: 1px solid black;
 }
 

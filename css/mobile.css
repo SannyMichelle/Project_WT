@@ -9,6 +9,8 @@ nav{
 }
 
 main{
+    flex: 0 0;
+    padding: 10px;
     order: 3;
 }
 
