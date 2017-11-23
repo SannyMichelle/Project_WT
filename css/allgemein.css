@@ -20,7 +20,7 @@ main {
     overflow: auto;
     flex: 2 1 600px;
     border: solid gray 1px;
-    padding: 0 0 0 20;
+    padding: 0 0 0 20px;
 }
 
 h1 {
@@ -71,6 +71,21 @@ p {
 iframe.map{
     width: 100%;
     height: auto;
+}
+
+table.tabellenformat{
+    padding: 0 20% 0 20%;
+}
+table.tabellenformat thead{
+    background-color: darkred;
+    color: white;
+}
+table.tabellenformat tbody {
+    background-color: hsl(10, 100%, 50%);
+}
+
+#Terminvereinbarung{
+    padding: 0 20% 0 20%;
 }
 
 aside{
