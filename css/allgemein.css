@@ -16,6 +16,7 @@ header {
     flex-direction: row;
     border: none;
 }
+
 main {
     overflow: auto;
     flex: 2 1 600px;
@@ -57,7 +58,7 @@ nav ul li a {
     color: white;
 }
 
-ul{
+ul {
     overflow: auto;
     list-style: none;
     padding: 0px 20px 20px 20px;
@@ -68,33 +69,43 @@ p {
     margin: 20px;
 }
 
-iframe.map{
+iframe.map {
     width: 100%;
     height: auto;
 }
 
-table.tabellenformat{
+table.tabellenformat {
     padding: 0 20% 0 20%;
 }
-table.tabellenformat thead{
+
+table.tabellenformat thead {
     background-color: #8a0000;
     color: white;
 }
+
+table.tabellenformat thead tr th {
+    padding: 5px;
+}
+
 table.tabellenformat tbody {
     background-color: hsl(39, 100%, 50%);
 }
 
-#Terminvereinbarung{
+table.tabellenformat tbody td {
+    padding: 5px;
+}
+
+#Terminvereinbarung {
     padding: 0 20% 0 20%;
 }
 
-blockquote{
+blockquote {
     font-weight: inherit;
     font-style: italic;
     text-align: right;
 }
 
-aside{
+aside {
     flex: 1 1 410px;
     overflow: auto;
     text-align: justify;
