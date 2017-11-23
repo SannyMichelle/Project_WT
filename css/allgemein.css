@@ -68,7 +68,7 @@ p {
     margin: 20px;
 }
 
-#map{
+iframe.map{
     width: 100%;
     height: auto;
 }

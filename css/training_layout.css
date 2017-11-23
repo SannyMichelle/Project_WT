@@ -4,7 +4,7 @@ div.innen{
     margin: 20px;
 }
 
-#list{
+ul.list{
     overflow: auto;
     list-style: none;
     padding: 0px 10px 10px 0px;
