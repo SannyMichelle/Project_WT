@@ -58,6 +58,10 @@ nav ul li a {
     color: white;
 }
 
+a.active{
+    background: orange;
+}
+
 ul {
     overflow: auto;
     list-style: none;
@@ -65,8 +69,8 @@ ul {
 }
 
 p {
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 iframe.map {
