@@ -77,11 +77,11 @@ table.tabellenformat{
     padding: 0 20% 0 20%;
 }
 table.tabellenformat thead{
-    background-color: darkred;
+    background-color: #8a0000;
     color: white;
 }
 table.tabellenformat tbody {
-    background-color: hsl(10, 100%, 50%);
+    background-color: hsl(0, 100%, 35%);
 }
 
 #Terminvereinbarung{

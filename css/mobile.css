@@ -13,5 +13,6 @@ main{
 }
 
 aside{
+    flex: 0 0;
     order: 1;
 }
