@@ -74,9 +74,32 @@ p {
     margin: 10px;
 }
 
+#team{
+    float: left;
+    padding: 0px 10px 10px 0px;
+    width: 60%;
+    min-width: 180px;
+    height: auto;
+}
+
 iframe.map {
     width: 100%;
     height: auto;
+}
+div.innen{
+    float: left;
+    padding: 0 5% 0 5%;
+    margin: 20px;
+}
+
+ul.list{
+    overflow: auto;
+    list-style: none;
+    padding: 0px 10px 10px 0px;
+}
+
+span{
+    font-weight: bold;
 }
 
 table.tabellenformat {
