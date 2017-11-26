@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 700px)">
     <script src="javascript/newsletter.js"></script>
 </head>
-<body onload='document.form1.email.focus()'>
+<body onload='document.form2.email.focus()'>
 <header>
     <h1>SUNRISE</h1>
     <hr/>
@@ -30,16 +30,19 @@
             <li>85586 Poing</li>
             <li><br>E-Mail: speckmei@hm.edu</li>
         </ul>
-        <p id="newsletter">
-            Hast du Lust auf unseren Newsletter?
-            <button type="button">ja</button>
-            <!--evtl. Einblenden Text: "Erfolgreiche Newsletter-Anmeldung!"-->
-        </p>
-        <form name="form1" action="#">
+        <form name="form1">
+            <p id="newsletter">
+                Hast du Lust auf unseren Newsletter?
+                <button type="button" onclick="ja()">ja</button>
+                <!--evtl. Einblenden Text: "Erfolgreiche Newsletter-Anmeldung!"-->
+            </p>
+        </form>
+        <form name="form2">
             <p>
                 E-Mail:
                 <input id="email" type="email" name="email" title="Email_Adresse" required>
-                <button type="button" onclick="Validierung(document.form1.email)"/>anmelden</button>
+                <button type="button" onclick="Validierung(document.form2.email)"/>
+                anmelden</button>
                 <!--statt button input type=button (siehe javascript.html)-->
             </p>
         </form>
