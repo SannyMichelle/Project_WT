@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 700px)">
     <script src="javascript/newsletter.js"></script>
 </head>
-<body>
+<body onload='document.form1.email.focus()'>
 <header>
     <h1>SUNRISE</h1>
     <hr/>
@@ -19,6 +19,7 @@
             <li><a href="Home.html">Home</a></li>
             <li><a href="Training.html">Training</a></li>
             <li><a href="Veranstaltungen.html">Veranstaltungen</a></li>
+            <script src="javascript/email.js"></script>
         </ul>
     </nav>
     <main>
@@ -34,12 +35,14 @@
             <button type="button">ja</button>
             <!--evtl. Einblenden Text: "Erfolgreiche Newsletter-Anmeldung!"-->
         </p>
-        <p>
-            E-Mail:
-            <input type="email" name="email" title="Email_Adresse">
-            <button type="button">anmelden</button>
-            <!--statt button input type=button (siehe javascript.html)-->
-        </p>
+        <form name="form1" action="#">
+            <p>
+                E-Mail:
+                <input id="email" type="email" name="email" title="Email_Adresse" multiple required>
+                <button type="button" onclick="Validierung(document.form1.email)"/>anmelden</button>
+                <!--statt button input type=button (siehe javascript.html)-->
+            </p>
+        </form>
     </main>
 </div>
 <footer>

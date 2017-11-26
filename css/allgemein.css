@@ -58,7 +58,7 @@ nav ul li a {
     color: white;
 }
 
-a.active{
+a.active {
     background: orange;
     border: solid darkorange 1px;
 }
@@ -74,7 +74,7 @@ p {
     margin: 10px;
 }
 
-#team{
+#team {
     float: left;
     padding: 0px 10px 10px 0px;
     width: 60%;
@@ -86,19 +86,20 @@ iframe.map {
     width: 100%;
     height: auto;
 }
-div.innen{
+
+div.innen {
     float: left;
     padding: 0 5% 0 5%;
     margin: 20px;
 }
 
-ul.list{
+ul.list {
     overflow: auto;
     list-style: none;
     padding: 0px 10px 10px 0px;
 }
 
-span{
+span {
     font-weight: bold;
 }
 
@@ -132,6 +133,14 @@ blockquote {
     font-style: italic;
     text-align: right;
 }
+
+/*input:invalid {
+    background: lightcoral
+}
+
+input:valid {
+    background: ivory
+}*/
 
 aside {
     flex: 1 1 410px;
