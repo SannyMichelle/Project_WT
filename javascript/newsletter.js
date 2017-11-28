@@ -1,4 +1,5 @@
 
-function ja () {
-    document.form1.getElementsByClassName("email");
+function ja (ja) {
+    alert("Du willst den Newsletter!")
+   email = display.visible;
 }

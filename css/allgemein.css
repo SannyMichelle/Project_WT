@@ -142,6 +142,10 @@ input:valid {
     background: ivory
 }*/
 
+/*#form2{
+    display:none;
+}*/
+
 aside {
     flex: 1 1 410px;
     overflow: auto;
