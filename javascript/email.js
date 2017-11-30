@@ -6,7 +6,7 @@ function validierung(email) {
         return true;
     }
     else {
-        /*Farbe des Textfeldes ändern?!*/
+        document.getElementById('email').style.backgroundColor='lightcoral';
         alert("Du hast eine ungültige E-Mail Adresse eingetragen!");
         document.form2.email.focus();
         return false;
