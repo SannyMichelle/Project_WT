@@ -10,5 +10,6 @@ function validierung(email) {
         alert("Du hast eine ungültige E-Mail Adresse eingetragen!");
         document.form2.email.focus();
         return false;
+        
     }
 }
