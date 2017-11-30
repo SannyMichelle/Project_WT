@@ -6,9 +6,10 @@
     <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/allgemein.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 700px)">
+    <script src="javascript/email.js"></script>
     <script src="javascript/newsletter.js"></script>
 </head>
-<body onload='document.form2.email.focus()'>
+<body>
 <header>
     <h1>SUNRISE</h1>
     <hr/>
@@ -33,8 +34,7 @@
         <form name="form1">
             <p id="newsletter">
                 Hast du Lust auf unseren Newsletter?
-                <button type="button" onclick="showButton(document.form1)">ja</button>
-                <!--evtl. Einblenden Text: "Erfolgreiche Newsletter-Anmeldung!"-->
+                <button type="button" onclick="showEmail(document.form1)">ja</button>
             </p>
         </form>
         <form id="form2" name="form2">
@@ -43,7 +43,6 @@
                 <input id="email" type="email" name="email" title="Email_Adresse" required>
                 <button type="button" onclick="validierung(document.form2.email)"/>
                 anmelden</button>
-                <!--statt button input type=button (siehe javascript.html)-->
             </p>
         </form>
     </main>

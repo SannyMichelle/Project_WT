@@ -134,9 +134,9 @@ blockquote {
     text-align: right;
 }
 
-/*#form2{
+#form2{
     display:none;
-}*/
+}
 
 aside {
     flex: 1 1 410px;
