@@ -103,24 +103,24 @@ span {
     font-weight: bold;
 }
 
-table.tabellenformat {
+#tabellenformat {
     padding: 0 20% 0 20%;
 }
 
-table.tabellenformat thead {
+#tabellenformat thead {
     background-color: darkred;
     color: white;
 }
 
-table.tabellenformat thead tr th {
+#tabellenformat thead tr th {
     padding: 5px;
 }
 
-table.tabellenformat tbody {
+#tabellenformat tbody {
     background-color: hsl(39, 100%, 50%);
 }
 
-table.tabellenformat tbody td {
+#tabellenformat tbody td {
     padding: 5px;
 }
 
