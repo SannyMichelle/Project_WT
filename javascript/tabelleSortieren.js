@@ -4,7 +4,7 @@ function tabelleSortieren(n) {
   /*Zeilen werden vertauscht, wenn true*/
   switching = true;
   /*Aufsteigende Sortierung*/
-  dir = "asc";
+  dir = "aufsteigend";
 
   /* Ausführung solange bist keine Sortierung stattgefunden hat */
   while (switching) {
@@ -12,7 +12,7 @@ function tabelleSortieren(n) {
     switching = false;
     zeilen = tabelle.getElementsByTagName("TR");
 
-    /*Schleife über alle Zeile (Spaltenüberschrift ausgenommen)*/
+    /*Schleife über alle Zeilen (Spaltenüberschrift ausgenommen)*/
     for (var i = 1; i < (zeilen.length - 1); i++) {
       // Standardwert = false
       shouldSwitch = false;
@@ -22,13 +22,13 @@ function tabelleSortieren(n) {
       var y = zeilen[i + 1].getElementsByTagName("TD")[n];
 
       /* Prüft, ob die beiden Zeilen vertauscht werden müssen */
-      if (dir == "asc") {
+      if (dir == "aufsteigend") {
         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
           // trifft zu: Zeilen sollen aufsteigend getrauscht werden
           shouldSwitch= true;
           break;
         }
-      } else if (dir == "desc") {
+      } else if (dir == "absteigend") {
         if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
           // trifft zu: Zeilen sollen absteigend getrauscht werden
           shouldSwitch= true;
@@ -43,11 +43,12 @@ function tabelleSortieren(n) {
       switching = true;
       // Tauschzähler wird benötigt, um auch absteigend sortieren zu können
       switchcount ++;
+
     } else {
       /* Wenn aufsteigend sortiert wurde und der Zähler bei 0 steht wird die obere
        Schleife wieder durchlaufen */
-      if (switchcount == 0 && dir == "asc") {
-        dir = "desc";
+      if (switchcount == 0 && dir == "aufsteigend") {
+        dir = "absteigend";
         switching = true;
       }
     }
