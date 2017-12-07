@@ -5,7 +5,8 @@ function validierung(email) {
 
 
     if (email.value.match(mailformat)) {
-        alert("Du hast dich erfolgreich für unseren Newsletter angemeldet!");
+        document.getElementById('erfolgreicheAnmeldung').style.display = 'block';
+        document.getElementById('falschesMailformat').style.display = 'none';
         /*Email wird ausgeblendet*/
         document.getElementById('form2').style.display = 'none';
         return true;
@@ -13,7 +14,8 @@ function validierung(email) {
     else {
         /*Bei falschem Email Format ändert sich der Hintergrund*/
         document.getElementById('email').style.backgroundColor = 'lightcoral';
-        alert("Du hast eine ungültige E-Mail Adresse eingetragen!");
+        document.getElementById('falschesMailformat').style.display = 'block';
+        document.getElementById('erfolgreicheAnmeldung').style.display = 'none';
         document.form2.email.focus();
         return false;
 

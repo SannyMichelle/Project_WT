@@ -40,12 +40,17 @@
         <form id="form2" name="form2">
             <p>
                 E-Mail:
-                <input id="email" type="email" name="email" title="Email_Adresse" required>
-                <button type="button" onclick="validierung(document.form2.email)"/>
-                anmelden</button>
+                <input id="email" type="email" name="email" title="Email_Adresse" required onkeyup="this.style.backgroundColor='white'">
+                <button type="button" onclick="validierung(document.form2.email)">anmelden</button>
             </p>
         </form>
     </main>
+</div>
+<div id="erfolgreicheAnmeldung">
+    <p>Du hast dich erfolgreich für unseren Newsletter angemeldet!</p>
+</div>
+<div id="falschesMailformat">
+    <p>Du hast eine ungültige E-Mail Adresse eingetragen!</p>
 </div>
 <footer>
     <hr/>

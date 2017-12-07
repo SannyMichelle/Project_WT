@@ -58,6 +58,27 @@ nav ul li a {
     color: white;
 }
 
+#erfolgreicheAnmeldung{
+    display: none;
+    padding: 10px;
+    background: green;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    color: white;
+    font-weight: bold;
+}
+#falschesMailformat{
+    display: none;
+    padding: 10px;
+    background: darkred;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    color: white;
+    font-weight: bold;
+}
+
 a.active {
     background: orange;
     border: solid darkorange 1px;
@@ -134,14 +155,14 @@ blockquote {
     text-align: right;
 }
 
-#form2{
-    display:none;
+#form2 {
+    display: none;
 }
 
 aside {
     flex: 1 1 410px;
     overflow: auto;
-    text-align: justify;
+    text-align: justify; /*Blocksatz*/
     border: 1px solid black;
 }
 
