@@ -11,8 +11,8 @@ header {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    flex-direction: -webkit-row;
-    flex-direction: -ms-row;
+    flex-direction: -webkit-row; /*Warnung lt. w3 Validator*/
+    flex-direction: -ms-row; /*Warnung lt. w3 Validator*/
     flex-direction: row;
     border: none;
 }

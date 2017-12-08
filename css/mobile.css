@@ -1,6 +1,6 @@
 #rahmen {
-    flex-direction: -webkit-column;
-    flex-direction: -ms-column;
+    flex-direction: -webkit-column; /*Warnung lt. w3 Validator*/
+    flex-direction: -ms-column; /*Warnung lt. w3 Validator*/
     flex-direction: column;
 }
 
