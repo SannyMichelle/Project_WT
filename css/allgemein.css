@@ -8,8 +8,8 @@ header {
 }
 
 #rahmen {
-    display: -webkit-flex;
-    display: -ms-flex;
+    display: -webkit-flex; /*Warnung lt. w3 Validator*/
+    display: -ms-flex; /*Warnung lt. w3 Validator*/
     display: flex;
     flex-direction: -webkit-row; /*Warnung lt. w3 Validator*/
     flex-direction: -ms-row; /*Warnung lt. w3 Validator*/
