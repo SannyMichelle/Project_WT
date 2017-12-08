@@ -58,7 +58,7 @@ nav ul li a {
     color: white;
 }
 
-#erfolgreicheAnmeldung{
+#erfolgreicheAnmeldung {
     display: none;
     padding: 10px;
     background: green;
@@ -68,7 +68,8 @@ nav ul li a {
     color: white;
     font-weight: bold;
 }
-#falschesMailformat{
+
+#falschesMailformat {
     display: none;
     padding: 10px;
     background: darkred;

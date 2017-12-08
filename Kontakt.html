@@ -31,16 +31,17 @@
             <li>85586 Poing</li>
             <li><br>E-Mail: speckmei@hm.edu</li>
         </ul>
-        <form name="form1">
+        <form>
             <p id="newsletter">
                 Hast du Lust auf unseren Newsletter?
-                <button type="button" onclick="showEmail(document.form1)">ja</button>
+                <button type="button" onclick="showEmail()">ja</button>
             </p>
         </form>
         <form id="form2" name="form2">
             <p>
                 E-Mail:
-                <input id="email" type="email" required placeholder="Bitte gebe deine E-Mail ein" onkeyup="this.style.backgroundColor='white'">
+                <input id="email" type="email" value="" autofocus required placeholder="Bitte gebe deine E-Mail ein"
+                       onkeyup="this.style.backgroundColor='white'">
                 <button type="button" onclick="validierung(email)">anmelden</button>
             </p>
         </form>
@@ -57,6 +58,5 @@
     <a href="Kontakt.html">Kontakt</a>
     <hr/>
 </footer>
-
 </body>
 </html>
