@@ -1,7 +1,7 @@
 function validierung(email) {
 
     /*Abfrage des gültigen Mailformats --> Quelle: https://www.w3resource.com/javascript/form/email-validation.php*/
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var mailformat = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 
 
     if (email.value.match(mailformat)) {

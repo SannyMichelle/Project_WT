@@ -20,13 +20,13 @@ function tabelleSortieren(n) {
             var y = zeilen[i + 1].getElementsByTagName("TD")[n];
 
             /* Prüft, ob die beiden Zeilen vertauscht werden müssen */
-            if (dir == "aufsteigend") {
+            if (dir === "aufsteigend") {
                 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                     // trifft zu: Zeilen sollen aufsteigend getrauscht werden
                     shouldSwitch = true;
                     break;
                 }
-            } else if (dir == "absteigend") {
+            } else if (dir === "absteigend") {
                 if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
                     // trifft zu: Zeilen sollen absteigend getrauscht werden
                     shouldSwitch = true;
@@ -45,10 +45,10 @@ function tabelleSortieren(n) {
         } else {
             /* Wenn aufsteigend sortiert wurde und der Zähler bei 0 steht wird die obere
              Schleife wieder durchlaufen */
-            if (switchcount == 0 && dir == "aufsteigend") {
-                dir = "absteigend";
-                switching = true;
-            }
+            if (dir === "aufsteigend" && switchcount === 0) {
+    dir = "absteigend";
+    switching = true;
+}
         }
     }
 }

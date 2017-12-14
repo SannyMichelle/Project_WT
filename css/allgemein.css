@@ -91,7 +91,7 @@ a.active {
 ul {
     overflow: auto;
     list-style: none;
-    padding: 0px 20px 20px 20px;
+    padding: 0 20px 20px 20px;
 }
 
 p {
@@ -101,7 +101,7 @@ p {
 
 #team {
     float: left;
-    padding: 0px 10px 10px 0px;
+    padding: 0 10px 10px 0;
     width: 70%;
     min-width: 180px;
     height: auto;
@@ -121,7 +121,7 @@ div.innen {
 ul.list {
     overflow: auto;
     list-style: none;
-    padding: 0px 10px 10px 0px;
+    padding: 0 10px 10px 0;
 }
 
 span {
@@ -171,7 +171,7 @@ aside {
 }
 
 footer {
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
     background: lightgrey;
     border: solid 1px gray;
     border-left: hidden;
