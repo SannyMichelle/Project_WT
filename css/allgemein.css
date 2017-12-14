@@ -20,7 +20,7 @@ header {
 main {
     overflow: auto;
     flex: 2 1 600px;
-    border: solid gray 1px;
+    /*border: solid gray 1px;*/
     padding: 0 0 0 20px;
 }
 
@@ -34,7 +34,6 @@ h1 {
 nav {
     flex: 0 0 180px;
     padding: 10px;
-    border: solid gray 1px;
 }
 
 nav ul {
@@ -48,7 +47,8 @@ nav ul li {
     padding: 10px;
 }
 
-nav ul li a {
+nav ul li a,
+footer a{
     padding: 5px;
     margin: 5px;
     background: darkred;
@@ -56,6 +56,11 @@ nav ul li a {
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
     color: white;
+}
+
+nav ul li a:hover,
+footer a:hover{
+    background-color: orange;
 }
 
 #erfolgreicheAnmeldung {
@@ -132,6 +137,7 @@ span {
 #tabellenformat thead {
     background-color: darkred;
     color: white;
+    cursor: pointer;
 }
 
 #tabellenformat thead tr th {
@@ -164,10 +170,21 @@ aside {
     flex: 1 1 410px;
     overflow: auto;
     text-align: justify; /*Blocksatz*/
-    border: 1px solid black;
 }
 
 footer {
-    padding: 0;
+    padding: 10px 0px 10px 0px;
     background: lightgrey;
+    border: solid 1px gray;
+    border-left: hidden;
+    border-right: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
+
+#kontakt{
+    text-align: center;
+}
+
