@@ -1,6 +1,4 @@
 #rahmen {
-    flex-direction: -webkit-column; /*Warnung lt. w3 Validator*/
-    flex-direction: -ms-column; /*Warnung lt. w3 Validator*/
     flex-direction: column;
 }
 
@@ -18,4 +16,9 @@ main {
 aside {
     flex: 0 0;
     order: 2;
+}
+
+footer {
+    position: relative;
+    margin-top: 10px;
 }

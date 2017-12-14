@@ -11,8 +11,6 @@ header {
     display: -webkit-flex; /*Warnung lt. w3 Validator*/
     display: -ms-flex; /*Warnung lt. w3 Validator*/
     display: flex;
-    flex-direction: -webkit-row; /*Warnung lt. w3 Validator*/
-    flex-direction: -ms-row; /*Warnung lt. w3 Validator*/
     flex-direction: row;
     border: none;
 }
@@ -48,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a,
-footer a{
+footer a {
     padding: 5px;
     margin: 5px;
     background: darkred;
@@ -59,7 +57,7 @@ footer a{
 }
 
 nav ul li a:hover,
-footer a:hover{
+footer a:hover {
     background-color: orange;
 }
 
@@ -104,7 +102,7 @@ p {
 #team {
     float: left;
     padding: 0px 10px 10px 0px;
-    width: 60%;
+    width: 70%;
     min-width: 180px;
     height: auto;
 }
@@ -178,13 +176,13 @@ footer {
     border: solid 1px gray;
     border-left: hidden;
     border-right: hidden;
-    position: fixed;
+    position: fixed; /*Footer immer unten am Browserfenster*/
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-#kontakt{
+#kontakt {
     text-align: center;
 }
 
